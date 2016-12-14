@@ -1,3 +1,10 @@
-div {
-    background-image: url("set_hero_background_image");
+.image{
+	postion:relative;
+	width:100%;
+}
+h1{
+	position: absolute;
+	top:200px
+	centre;
+	width:100%;
 }
