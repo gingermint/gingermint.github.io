@@ -1,8 +1,17 @@
+body {
+	background-color: rgb(138,186,183);
+}
+
 .logo {
     display: inline-block;
     vertical-align: top;
+    float: left;
     width: 200px;
     height: 200px;
     margin-right: 20px;
     margin-top: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
