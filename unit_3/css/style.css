@@ -1,4 +1,7 @@
-background-image: url("images/set_hero_image.png")
+
+body {
+	background-image: url("images/set_hero_image.png")
+}
 
 #hero-image {
 	height: 610px;
