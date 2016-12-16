@@ -1,16 +1,10 @@
-background-image: url("images/her0_image.png")
+background-image: url("images/set_her0_image.png")
 
 #hero-image {
 	height: 610px;
 	padding-top:1 px;
 	background: rgb(138,186,183) url(images/set_hero.png); no-repeat center;
 }
-
-
-
-
-
-
 
 
 header, {
