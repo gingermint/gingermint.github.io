@@ -1,6 +1,8 @@
-body {
-	background-color: rgb(138,186,183);
-}
+header, {
+    color: white;
+    background-color: rgb(138,186,183);
+    clear: left;
+    text-align: center;
 
 .logo {
     display: inline-block;
@@ -9,7 +11,7 @@ body {
     width: 200px;
     height: 200px;
     margin-right: 20px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 body {
   margin: 0;
