@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Playfair+Display|Raleway');
 
 * {
-	margin: 0
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h2 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 1.3em;
+	line-height: 1.5em;
 	letter-spacing: 0.66px;
 	color: #222222;
 }
@@ -52,7 +52,7 @@ h4 {
 
 p {
 	font-family: 'Libre Baskerville', serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -63,7 +63,7 @@ p {
 
 ul {
 	font-family: 'Libre Baskerville', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-style: medium;
 	text-transform: normal;
 	font-variant: normal;
@@ -78,7 +78,6 @@ a {
 	font-size: 16px;
 	font-style: medium;
 	text-transform: uppercase;
-	font-variant: normal;
 	font-weight: normal;
 	line-height: 2em;
 	color: #999999;
@@ -89,18 +88,14 @@ nav {
 	font-size: 16px;
 	font-style: medium;
 	text-transform: uppercase;
-	font-variant: normal;
 	font-weight: normal;
 	line-height: 2em;
-
-}
-
-nav {
+	position: relative;
 	float: right;
-	margin-top: 60px;
-	margin-bottom: 40px;
-	margin-right: 40px;
-	}
+  	padding-right: 20px;
+  	margin-bottom: 60px;
+  	display: inline; 
+}
 
 img {
 	width: 100%
@@ -113,11 +108,13 @@ footer {
 	margin-bottom: 40px;
 }
  
-.logo img {
-  float: left-bottom;
+.lander {
   width: 200px;
   height: 72px;
   margin-top: 40px;
-  margin-bottom: 40px;
 }
 
+.section {
+	margin: 20px;
+
+}
