@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Muli|Playfair+Display|Raleway');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 55px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5em;
+	letter-spacing: 0.66px;
+	color: #222222;
+}
+
+h2 {
+	font-family: Raleway, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 2em;
+    color: #111111;
+}
+
+h3 {
+	font-family: 'Muli', sans-serif;
+	font-size: 19px;
+	font-style: medium;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 2em;
+	color: #000;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-style: medium;
+	text-transform: uppercase;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 2em;
+	color: #333333;
+}
+
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 2em;
+	letter-spacing: 0.6px;
+	color: #444444;
+}
+
+ul {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 1em;
+	font-style: medium;
+	text-transform: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 2em;
+	letter-spacing: 0.6px;
+	color: #444444;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-style: medium;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 2em;
+	color: #999999;
+}
+
+nav {
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-style: medium;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 2em;
+}
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav { 	
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+aside { 	
+	background-color: #ffc675;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+article { 	
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+footer { 	
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+
+div / section { 	
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+img {
+	width: 100%
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+ 
+.logo {
+  float: left-bottom;
+  width: 200px;
+  height: 72px;
+  margin-top: 40px;
+}
+
+#navigation {
+	float: right;
+}
