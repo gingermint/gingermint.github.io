@@ -88,39 +88,18 @@ nav {
 	text-transform: uppercase;
 	font-weight: normal;
 	line-height: 2em;
-	display: block;
-	background-color: rgb(138,186,183);
-	border: 1px black solid;
-	float: right;
-	padding: 20px;
-
 }
-
-.clearfixafter: {
-	visibility: hdiden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0
-	font-size: 0;
-}
-
-
-
-nav a {
-	text-decoration: none;
-
-}
-
-nav a:hover {
-	background-color: #dd0000;
-}
-	
 
 header {
 	background-color: #ffed74;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+nav { 	
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px; 
 }
 
 aside { 	
@@ -158,20 +137,13 @@ footer {
 	margin-bottom: 40px;
 }
  
-#lander {
-  float: left;
+.logo {
+  float: left-bottom;
   width: 200px;
   height: 72px;
-  margin: solid black;
+  margin-top: 40px;
 }
 
-
-
-.clearfix:after {
-	display: block;
-	content: " ";
-	clear: both;
-
-	height: 0;
-	font-size: 0;
-	visibility; hidden;
+#navigation {
+	float: right;
+}
