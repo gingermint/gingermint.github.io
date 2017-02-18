@@ -1,61 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Muli|Playfair+Display|Raleway');
 
 * {
-	margin: 0px;
+	margin: 0px
 	padding: 0px;
 }
+
+body {
+	font-family: 'Playfair Display', '' serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgba(0,0,0,0.5);
+	background-color: rgb(255,255,255);
+	margin-bottom: 20px;
+}
+
 
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 55px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
 	line-height: 1.5em;
 	letter-spacing: 0.66px;
-	color: #222222;
+	color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 
 h2 {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: normal;
     line-height: 2em;
-    color: #111111;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
 }
 
 h3 {
 	font-family: 'Muli', sans-serif;
 	font-size: 19px;
 	font-style: medium;
-	font-variant: normal;
-	font-weight: normal;
 	line-height: 2em;
-	color: #000;
+	color: rgb(0,0,0,);
+	margin-bottom: 20px;
 }
 
 h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 24px;
 	font-style: medium;
 	text-transform: uppercase;
-	font-variant: normal;
-	font-weight: normal;
 	line-height: 2em;
-	color: #333333;
+	color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 
 
 p {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
 	line-height: 2em;
 	letter-spacing: 0.6px;
-	color: #444444;
+	color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 
 ul {
@@ -67,18 +71,23 @@ ul {
 	font-weight: normal;
 	line-height: 2em;
 	letter-spacing: 0.6px;
-	color: #444444;
+	color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 
 a {
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-style: medium;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: 500;
 	line-height: 2em;
-	color: #999999;
+	color: rgba(138,186,183);
+	margin-bottom: 20px;
 }
+
+
+
 
 nav {
 
@@ -88,90 +97,14 @@ nav {
 	text-transform: uppercase;
 	font-weight: normal;
 	line-height: 2em;
-	display: block;
 	background-color: rgb(138,186,183);
-	border: 1px black solid;
 	float: right;
 	padding: 20px;
 
 }
 
-.clearfixafter: {
-	visibility: hdiden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0
-	font-size: 0;
-}
 
 
 
-nav a {
-	text-decoration: none;
-
-}
-
-nav a:hover {
-	background-color: #dd0000;
-}
-	
-
-header {
-	background-color: #ffed74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-aside { 	
-	background-color: #ffc675;
-	border: 1px black solid;
-	padding: 20px; 
-}
-
-article { 	
-	background-color: #e89c6c;
-	border: 1px black solid;
-	padding: 20px; 
-}
-
-footer { 	
-	background-color: #ff957e;
-	border: 1px black solid;
-	padding: 20px; 
-}
 
 
-div / section { 	
-	background-color: #ffe2b8;
-	border: 1px black solid;
-	padding: 20px; 
-}
-
-img {
-	width: 100%
-}
-
-footer {
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
- 
-#lander {
-  float: left;
-  width: 200px;
-  height: 72px;
-  margin: solid black;
-}
-
-
-
-.clearfix:after {
-	display: block;
-	content: " ";
-	clear: both;
-
-	height: 0;
-	font-size: 0;
-	visibility; hidden;
