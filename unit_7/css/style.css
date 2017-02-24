@@ -261,10 +261,8 @@ footer h4 {
 }
 
 #hero-image-lander {
-	background-image: url(images/hero-image.png);
-	background-size: cover;
-	text-align: center;
-}
+	width: 100%;
+}	
 
 #h1-wrapper {
 	width:90%;
