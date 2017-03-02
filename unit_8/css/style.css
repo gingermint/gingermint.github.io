@@ -413,17 +413,7 @@ img#logo {
 	}
 		
 
-@media screen and (max-width:770px){ 
-
-	img#set-map {
-	padding-top: 60px;
-	}
-
-
-}
-
 @media screen and (max-width:770px){
-
 
 
 	img#logo {
@@ -444,6 +434,7 @@ img#logo {
 
 	nav a:link{
 	display: block;
+	text-align: center;
 	padding:10px;
 	margin:5px;
 	}
@@ -465,6 +456,10 @@ img#logo {
 
 	#toggle:checked + nav{
 	display: block;
+	}
+
+	img#set-map {
+	padding-top: 60px;
 	}
 
 	.reserves {
@@ -503,6 +498,31 @@ img#logo {
 	width: 8em;
 	}
 
+	h1 {
+	font-size: 2em;
+	}
+
+	footer a{
+	display: block;
+	font-size: .8em;
+	width: 50%;	
+	margin-left: 25%;
+	margin: right: 25%;
+	float: none;
+	padding: 1em;
+	}
+	}
+
+	nav{
+	font-size: .8em;
+	width: 50%;	
+	margin-left: 25%;
+	margin: right: 25%;
+	display: none;
+	float: none;
+	padding: 1em;
+	}
+
 	#p-wrapper {
 	display: none;
 	}
@@ -520,7 +540,7 @@ img#logo {
 	width:98%;
 	margin:1%;
 	float:left;
-}
+	}
 
 
 }
