@@ -201,6 +201,20 @@ footer h4 {
 	color: rgb(255,255,255);
 }
 
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 2em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.7);
+	margin: 1em auto;
+    display: none;
+
+}
+
 
 .clearfix:after{
 	visibility: hidden;
@@ -347,7 +361,7 @@ img#logo {
 	padding:3.125em 0;
 }
 
-#images-wrapper img {
+.images {
 	width:29.333%;
 	margin:2%;
 	float:left;
@@ -398,9 +412,17 @@ img#logo {
 	float:left;
 	}
 		
+
+@media screen and (max-width:770px){ 
+
+	img#set-map {
+	padding-top: 60px;
+	}
+
+
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:770px){
 
 
 
@@ -411,6 +433,7 @@ img#logo {
 	}
 
 	nav{
+	font-size: .8em;
 	width: 30%;	
 	margin-left: 35%;
 	margin: right: 35%;
@@ -425,18 +448,81 @@ img#logo {
 	margin:5px;
 	}
 
+	nav a:hover {
+	color: rgb(138,186,183);
+	border-bottom: 0.0625em solid rgb(138,186,183);
+	} 
+
 	label{
-		display: block;
-		width: 30%;	
-		margin-left: 35%;
-		margin: right: 35%;
-		float: none;
-		text-align: center;
-		}
+	display: block;
+	width: 30%;	
+	padding-top: 50px;
+	margin-left: 35%;
+	margin: right: 35%;
+	float: none;
+	text-align: center;
+	}
 
 	#toggle:checked + nav{
-		display: block;
+	display: block;
+	}
+
+	.reserves {
+	width:98%;
+	margin:1%;
+	float:none;
+	}
+
+	.news{
+	width:98%;
+	margin:1%;
+	float:none;
+	text-align: center;
+	align-content: center;
+	}
+
+	.images {
+	width:48%;
+	margin:1%;
+	float:left;
 	}
 
 
+	h4 {
+	display: none;
+	}
+
+	hr {
+		display: none;
+	}
 }
+
+@media screen and (max-width:490px){ 
+
+	img#logo {
+	width: 8em;
+	}
+
+	#p-wrapper {
+	display: none;
+	}
+
+	.about{
+	width:98%;
+	margin:1%;
+	float:none;
+	padding:1.5em 0;
+	text-align: center;
+	align-content: center;
+	}
+
+	.images {
+	width:98%;
+	margin:1%;
+	float:left;
+}
+
+
+}
+
+
