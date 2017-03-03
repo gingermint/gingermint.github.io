@@ -29,8 +29,7 @@ nav a:link{
 	line-height: 2em;
 	text-decoration: none;
 	color: rgba(0,0,0,0.7);
-	padding:0.625em;
-	
+	padding:0.625em;	
 }
 
 nav a:hover {
@@ -42,28 +41,15 @@ main{
 	background-color: rgb(255,255,255);
 	color: rgba(0,0,0,0.2);
 	padding:3.125em 0;
-	
 }
 
 footer {
 	background-color: rgb(138,186,183);
 	padding:3.125em 0;
+	width:100%;
 	align-content: center;
 	text-align: center;
-}
-
-footer a {
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.8em;
-	font-weight: 500;
-	color: rgba(255,255,255,0.5);
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 0.125em;
-	line-height: 2em;
-	text-decoration: none;
-	padding:0.625em;
-	
+	padding-bottom: 6.25em;
 }
 
 footer a:hover {
@@ -92,11 +78,10 @@ h2 a {
 	line-height: 2em;
 	letter-spacing: .1em;
 	color: rgba(0,0,0,0.9);
-	margin: 1em auto;
-	
+	margin: 1em auto;	
 }
 
-a h2:hover{
+a h2:hover {
 	color: rgb(138,186,183);
 }
 
@@ -119,15 +104,13 @@ img{
 	width:100%;
 }
 
-hr{
+hr {
 	border: none;
 	background-color: rgba(0,0,0,0.5);
 	height:0.0437em;
 	width:2em;
 	margin: 2%;
 }
-
-
 
 h1 {
 	font-family: 'Playfair Display', serif;
@@ -180,9 +163,7 @@ h4 {
 	margin:2%;
 	text-align: center;
 	align-content: center;
-
 }
-
 
 p,
 ul,
@@ -198,7 +179,8 @@ li {
 }
 
 footer h4 {
-	color: rgb(255,255,255);
+	color: rgb (255,255,255);
+	display: block;
 }
 
 label {
@@ -212,7 +194,6 @@ label {
 	color: rgba(0,0,0,0.7);
 	margin: 1em auto;
     display: none;
-
 }
 
 
@@ -240,13 +221,11 @@ label {
 	float:left;
 	align-content: left;
 	text-align: left;
-
 }
 
 .about img{
 	display: block;
 	margin:auto;
-
 }
 
 .reserves hr{
@@ -265,12 +244,26 @@ label {
 	float:left;
 	align-content: left;
 	text-align: left;
-
 }
 
 .news img{
 	display: block;
 }
+
+.images {
+	width:29.333%;
+	margin:2%;
+	float:left;
+}
+
+.social-media {
+	opacity: 0.8;
+	width: 2.5%;
+	display: inline-block;
+	align-content: center;
+	padding: 0.2em;
+}
+
 
 #lander {
 	margin-left: 2%;
@@ -296,7 +289,6 @@ img#logo {
 	align-content: center;
 	text-align: center;
 	padding-top: 2.5em;
-	
 }
 
 #p-wrapper {
@@ -312,12 +304,9 @@ img#logo {
 	margin: auto;
 }
 
-
-
 #about-wrapper {
 	width: 90%;
-	padding:3.125em 0;
-	
+	padding:3.125em 0;	
 }
 
 #our-trust {
@@ -326,7 +315,6 @@ img#logo {
 	float:left;
 	align-content: center;
 	text-align: center;
-	
 }
 
 #our-trust img {
@@ -341,9 +329,8 @@ img#logo {
 
 #reserves-wrapper {
 	width: 90%;
-	text-align: center;;
-	padding:3.125em 0;
-	
+	text-align: center;
+	padding:3.125em 0;	
 }
 
 #our-portfolio {
@@ -361,17 +348,39 @@ img#logo {
 	padding:3.125em 0;
 }
 
-.images {
-	width:29.333%;
-	margin:2%;
-	float:left;
-}
-
 #toggle{
 	display: none;
 }
 
 @media screen and (max-width:1000px){
+
+	.about{
+	width:48%;
+	margin:1%;
+	float:left;
+	padding:1.5em 0;
+	}
+
+	.news{
+	width:48%;
+	margin:1%;
+	float:left;
+	}
+
+	.images {
+	width:48%;
+	margin:1%;
+	float:left;
+	}
+
+	.social-media {
+	width: 3%;
+	}
+
+	img#logo {
+	width: 9em;
+	}
+
 	#h1-wrapper {
 	width:75%;
 	margin: auto;
@@ -393,36 +402,21 @@ img#logo {
 	width:98%;
 	margin:1%;
 	float:left;
-}
-
-	.about{
-	width:48%;
-	margin:1%;
-	float:left;
-	padding:1.5em 0;
 	}
+
 
 	#our-portfolio {
 	padding-top: 0em;
-	}
-
-	.news{
-	width:48%;
-	margin:1%;
-	float:left;
 	}
 		
 
 @media screen and (max-width:770px){
 
-
-	img#logo {
-	width: 10em;
-	float: left;
-	padding-bottom: 0em;
+	h1 {
+	display: none;
 	}
 
-	nav{
+	nav {
 	font-size: .8em;
 	width: 30%;	
 	margin-left: 35%;
@@ -432,7 +426,7 @@ img#logo {
 	padding: 1em;
 	}
 
-	nav a:link{
+	nav a:link {
 	display: block;
 	text-align: center;
 	padding:10px;
@@ -444,7 +438,7 @@ img#logo {
 	border-bottom: 0.0625em solid rgb(138,186,183);
 	} 
 
-	label{
+	label {
 	display: block;
 	width: 30%;	
 	padding-top: 50px;
@@ -454,23 +448,21 @@ img#logo {
 	text-align: center;
 	}
 
-	#toggle:checked + nav{
-	display: block;
+	h4 {
+	display: none;
 	}
 
-	img#set-map {
-	padding-top: 60px;
+	hr {
+		display: none;
 	}
 
 	.reserves {
-	width:98%;
-	margin:1%;
+	width:100%;
 	float:none;
 	}
 
 	.news{
-	width:98%;
-	margin:1%;
+	width:100%;
 	float:none;
 	text-align: center;
 	align-content: center;
@@ -482,35 +474,39 @@ img#logo {
 	float:left;
 	}
 
-
-	h4 {
-	display: none;
+	.social-media {
+	width: 7%;
+	padding: 5px;
+	float: none;
 	}
 
-	hr {
-		display: none;
-	}
-}
-
-@media screen and (max-width:490px){ 
 
 	img#logo {
 	width: 8em;
 	}
 
-	h1 {
-	font-size: 2em;
+	#hero-image-lander {
+	display: none;
 	}
 
-	footer a{
-	display: block;
-	font-size: .8em;
-	width: 50%;	
-	margin-left: 25%;
-	margin: right: 25%;
-	float: none;
-	padding: 1em;
+	#p-wrapper {
+	display: none;
 	}
+
+	#toggle:checked + nav {
+	display: block;
+	}
+
+	img#set-map {
+	padding-top: 60px;
+	}
+}
+
+@media screen and (max-width:490px){ 
+
+
+	h1 {
+	display: none;
 	}
 
 	nav{
@@ -523,13 +519,12 @@ img#logo {
 	padding: 1em;
 	}
 
-	#p-wrapper {
-	display: none;
+	footer {
+	width: 100%;
 	}
 
 	.about{
-	width:98%;
-	margin:1%;
+	width:100%;
 	float:none;
 	padding:1.5em 0;
 	text-align: center;
@@ -537,12 +532,42 @@ img#logo {
 	}
 
 	.images {
-	width:98%;
-	margin:1%;
+	width:100%;
 	float:left;
 	}
 
+	.social-media {
+	width: 7%;
+	padding: 5px;
+	float: none;
+	}
 
+	img#logo {
+	width: 7em;
+	}
+
+	#hero-image-lander {
+	display: none;
+	}
+
+	#p-wrapper {
+	display: none;
+	}
+
+	#about-wrapper {
+	width: 100%;
+	}
+
+	#reserves-wrapper {
+	width: 100%;	
+	}
+
+	#news-wrapper {
+	width: 100%;	
+	}
+
+	#images-wrapper {
+	width: 100%;	
+	}
 }
-
 
